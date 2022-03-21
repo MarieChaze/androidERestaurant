@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/buttonPlats" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/TexteAccueil"
         android:layout_width="304dp"
         android:layout_height="122dp"
         android:layout_marginTop="72dp"
@@ -60,7 +60,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/TexteAccueil"
         app:srcCompat="@drawable/resto" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
