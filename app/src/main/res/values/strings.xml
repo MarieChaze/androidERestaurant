@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">androidERestaurant</string>
+    <string name="entrees">Entrees</string>
+    <string name="plats">Plats</string>
+    <string name="desserts">Desserts</string>
+    <string name="bienvenue_chez_marie">Bienvenue chez Marie</string>
+
+    <string-array name = "plats">
+        <item name = "Item 1"> Salade César </item>
+        <item name = "Item 2"> Pâtes Carbonara </item>
+    </string-array>
+
 </resources>

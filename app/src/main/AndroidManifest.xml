@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidERestaurant">
         <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CarteActivity"
+            android:exported="false" />
+        <activity
             android:name=".Page_Dessert"
             android:exported="false" />
         <activity
