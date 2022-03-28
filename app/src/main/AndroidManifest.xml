@@ -2,30 +2,34 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="fr.isen.chaze.androiderestaurant">
 
+
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/Theme.AndroidERestaurant">
+        <activity
+            android:name=".BleScanActivity"
+            android:exported="false" />
         <activity
             android:name=".DetailActivity"
             android:exported="false" />
         <activity
-            android:name=".CarteActivity"
+            android:name=".CategoryActivity"
             android:exported="false" />
         <activity
-            android:name=".Page_Dessert"
-            android:exported="false" />
-        <activity
-            android:name=".Page_Entrees"
-            android:exported="false" />
-        <activity
-            android:name=".Page_Plat"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
