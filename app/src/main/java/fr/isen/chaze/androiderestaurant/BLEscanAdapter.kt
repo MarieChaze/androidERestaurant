@@ -43,4 +43,4 @@ class BLEscanAdapter (val data: ArrayList<Item>, val clickListener: (Item) -> Un
             return data.size
         }
     }
-}
+
