@@ -6,10 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    android:background="#3F51B5">
+    android:background="#CCA88F">
 
     <TextView
-        android:id="@+id/deviceTitle"
+        android:id="@+id/bleName"
         android:layout_width="262dp"
         android:layout_height="26dp"
         android:layout_marginTop="8dp"
@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/bleAddress"
         android:layout_width="262dp"
         android:layout_height="20dp"
         android:layout_marginTop="8dp"
@@ -30,18 +30,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.893"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/deviceTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/bleName" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/bleRssi"
+        android:layout_width="55dp"
+        android:layout_height="57dp"
         android:layout_marginStart="16dp"
-        android:text="TextView"
+        android:background="@drawable/ble_circle"
+        android:text=" N"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.511" />
+        app:layout_constraintVertical_bias="0.6" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

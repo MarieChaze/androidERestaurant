@@ -1,46 +1,51 @@
 package fr.isen.chaze.androiderestaurant
 
+import android.annotation.SuppressLint
+import android.bluetooth.le.ScanResult
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.squareup.picasso.Picasso
-import fr.isen.chaze.androiderestaurant.model.Item
 
-class BLEscanAdapter (val data: ArrayList<Item>, val clickListener: (Item) -> Unit) : RecyclerView.Adapter<BLEscanAdapter.CategoryViewHolder>() {
 
-        inner class CategoryViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-            var deviceTitle: TextView = view.findViewById(R.id.deviceTitle)
+internal class BLEscanAdapter (val bleList: ArrayList<ScanResult>, val clickListener: (ScanResult) -> Unit) : RecyclerView.Adapter<BLEscanAdapter.BleScanViewHolder>() {
 
-            var priceTextView: TextView = view.findViewById(R.id.priceTextView)
+        inner class BleScanViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+            var rssi: TextView = view.findViewById(R.id.bleRssi)
+            var name: TextView = view.findViewById(R.id.bleName)
+            var address: TextView = view.findViewById(R.id.bleAddress)
         }
 
-        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CategoryViewHolder {
-            val deviceView = LayoutInflater.from(parent.context)
+        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BleScanViewHolder {
+            val itemView = LayoutInflater.from(parent.context)
                 .inflate(
                     R.layout.device,
                     parent,
                     false
                 )
-            return CategoryViewHolder(deviceView)
+            return BleScanViewHolder(itemView)
         }
 
-        override fun onBindViewHolder(holder: CategoryViewHolder, position: Int) {
-            val item = data[position]
-            holder.deviceTitle.text = item.name_fr
+        @SuppressLint("MissingPermission")
+        override fun onBindViewHolder(holder: BleScanViewHolder, position: Int) {
+            val result = bleList[position]
+            holder.rssi.text = result.rssi.toString()
+            holder.address.text = result.device.address
+            holder.name.text = result.device.name
 
-            Picasso.get().load(item.images[0].ifEmpty{ null })
-                .placeholder(R.drawable.ic_launcher_foreground)
-            holder.itemView.setOnClickListener { clickListener(item) }
-
-
+            holder.itemView.setOnClickListener {
+                clickListener(result) }
 
         }
+
+        fun addResultToBleList(scanResult: ScanResult){
+                 bleList.add(scanResult)
+
+         }
+
 
         override fun getItemCount(): Int {
-            return data.size
+            return bleList.size
         }
-    }
-
+}

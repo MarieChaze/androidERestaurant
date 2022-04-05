@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/drawable/ble_circle.xml" value="0.12895522020951397" />
         <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/drawable/ic_baseline_pause_50.xml" value="0.182" />
         <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/drawable/ic_baseline_play_arrow_50.xml" value="0.182" />
         <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/drawable/ic_pause.xml" value="0.165" />
@@ -12,9 +13,9 @@
         <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/activity_ble_scan.xml" value="0.2364179037174423" />
         <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/activity_carousel_adapter.xml" value="0.16709401709401708" />
         <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/activity_carte.xml" value="0.2364179037174423" />
-        <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/activity_category.xml" value="0.15761193581162822" />
+        <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/activity_category.xml" value="0.2364179037174423" />
         <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/activity_data_result.xml" value="0.16709401709401708" />
-        <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/activity_detail.xml" value="0.16709401709401708" />
+        <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/activity_detail.xml" value="0.35820894502642775" />
         <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/activity_details.xml" value="0.16709401709401708" />
         <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/activity_home.xml" value="0.2364179037174423" />
         <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/activity_item.xml" value="0.16709401709401708" />
@@ -22,7 +23,7 @@
         <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/activity_page_plat.xml" value="0.2364179037174423" />
         <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/activity_price.xml" value="0.16709401709401708" />
         <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/activity_volley_singleton.xml" value="0.16709401709401708" />
-        <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/device.xml" value="0.4799999863354132" />
+        <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/device.xml" value="0.35820894502642775" />
         <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/fragment_picture.xml" value="0.16709401709401708" />
         <entry key="..\:/Users/marie/AndroidStudioProjects/androidERestaurant3/app/src/main/res/layout/item.xml" value="0.2364179037174423" />
       </map>
