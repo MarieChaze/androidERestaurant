@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    android:background="#CCA88F">
+    android:background="#DACEC5">
 
     <TextView
         android:id="@+id/bleName"
@@ -38,6 +38,7 @@
         android:layout_height="57dp"
         android:layout_marginStart="16dp"
         android:background="@drawable/ble_circle"
+        android:paddingTop="18dp"
         android:text=" N"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"

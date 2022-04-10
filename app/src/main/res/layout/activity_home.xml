@@ -6,38 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
+
     <TextView
         android:id="@+id/bienvenueChez"
-        android:layout_width="418dp"
-        android:layout_height="107dp"
-        android:layout_marginTop="28dp"
-        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/alegreya_sans_sc_medium"
         android:text="@string/bienvenue_chez"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#473A3A"
+        android:textColor="#151412"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <Button
         android:id="@+id/entrees"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginStart="70dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="70dp"
-        android:fontFamily="serif"
+        android:fontFamily="@font/alegreya_sans_sc_medium"
         android:text="@string/entrees"
         android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -48,7 +48,7 @@
         android:layout_marginStart="70dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="70dp"
-        android:fontFamily="serif"
+        android:fontFamily="@font/alegreya_sans_sc_medium"
         android:text="@string/plats"
         android:textAlignment="center"
         android:textSize="20sp"
@@ -65,7 +65,7 @@
         android:layout_marginStart="70dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="70dp"
-        android:fontFamily="serif"
+        android:fontFamily="@font/alegreya_sans_sc_medium"
         android:text="@string/desserts"
         android:textAlignment="center"
         android:textSize="20sp"
@@ -77,9 +77,9 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="383dp"
-        android:layout_height="187dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="212dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bienvenueChez"
@@ -89,7 +89,7 @@
         android:id="@+id/ble"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
+        android:fontFamily="@font/alegreya_sans_sc_medium"
         android:text="BLE"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
