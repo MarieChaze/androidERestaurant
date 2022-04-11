@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">androidERestaurant</string>
+    <string name="app_name">MarieAndroidERestaurant</string>
     <string name="bienvenue_chez">Bienvenue chez Marie</string>
     <string name="todo">TODO</string>
     <string name="entrees">Entrées</string>
